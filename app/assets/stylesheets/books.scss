@@ -1,0 +1,105 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.index-flash {
+  margin: 33px;
+  line-height: 33px;
+  color: green;
+}
+
+.books-index {
+  margin: 33px;
+  text-align:left;
+}
+
+
+.table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  word-warp: break-word;
+}
+
+
+.books-newbook {
+  margin: 18px 0;
+}
+
+.newbook-text {
+  margin-bottom: 10px;
+}
+
+.form-group-newbook {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.books-show {
+  margin: 33px;
+  text-align:left;
+}
+
+.show-flash {
+  margin: 33px;
+  line-height: 33px;
+  color: green;
+}
+
+.show-text {
+  margin: 33px;
+  line-height: 33px;
+}
+
+.flex_link-show {
+  display: flex;
+  color: #666;
+}
+
+.flex_show-linkclick {
+  padding: 0 5px 0;
+}
+
+.flex_show-linkclick:first-child {
+  border-right-width: 2px;
+  border-right-style: solid;
+  color: #666;
+}
+
+.books-edit {
+  margin: 33px;
+  text-align:left;
+}
+
+.edit-title {
+  margin: 18px 0;
+}
+
+.edit-text {
+  margin-bottom: 10px;
+}
+
+.form-group-edit {
+  margin-bottom: 10px;
+}
+
+.flex_link-edit {
+  display: flex;
+  color: #666;
+}
+
+.flex_edit-linkclick {
+  padding: 0 5px 0;
+}
+
+.flex_edit-linkclick:first-child {
+  border-right-width: 2px;
+  border-right-style: solid;
+  color: #666;
+}

@@ -1,0 +1,28 @@
+<!-- <h1>Books#edit</h1> -->
+<!-- <p>Find me in app/views/books/edit.html.erb</p> -->
+<div class="books-edit">
+  <div class="edit-title">
+  <h1><strong>Editing Book</strong></h1>
+  </div>
+
+  <%= form_for(@book) do |f| %>
+  <%= render 'layouts/error_messages', model: @book %>
+    <div class='form-group-edit'>
+      <div class="edit-text">
+      <h4>Title</h4>
+      <%= f.text_field :title %>
+      </div>
+      <div class="edit-text">
+      <h4>Body</h4>
+      <%= f.text_area :body %>
+      </div>
+
+      <br><%= f.submit 'Updata Book' %></br>
+      <% end %>
+    </div>
+
+    <div class="flex_link-edit">
+     <div class="flex_edit-linkclick"><%= link_to "Show",book_path(@book) %></div>
+     <div class="flex_edit-linkclick"><%= link_to "Back",books_path %></div>
+    </div>
+</div>

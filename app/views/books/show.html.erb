@@ -1,0 +1,15 @@
+<!-- <h1>Books#show</h1> -->
+<!-- <p>Find me in app/views/books/show.html.erb</p> -->
+<div class="books-show">
+  <% flash[:notice] %>
+  <p class="show-flash"><%= flash[:notice] %></p>
+
+  <p class="show-text"><strong>Title:</strong><%= @book.title %></p>
+
+  <p class="show-text"><strong>Body:</strong><%= @book.body %></p>
+
+  <div class="flex_link-show">
+  	<div class="flex_show-linkclick"><%= link_to "Edit",edit_book_path(@book) %></div>
+  	<div class="flex_show-linkclick"><%= link_to "Back",books_path %></div>
+  </div>
+</div>
